@@ -1,0 +1,21 @@
+2024-06-13T22:42:21.785+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:42:21.786+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T22:43:14.997+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:43:14.998+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T22:44:20.532+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:44:20.533+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T22:46:01.079+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:46:01.079+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T22:47:06.106+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:47:06.107+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T22:47:12.233+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:47:12.233+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T22:49:50.413+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:50:26.115+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:52:04.789+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:59:26.029+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:59:33.257+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T22:59:33.258+0800	ERROR	dao/mysql.go:23	connect db failed	{"error": "sql: unknown driver \"mysql\" (forgotten import?)"}
+2024-06-13T23:01:36.349+0800	DEBUG	service/main.go:24	log init success
+2024-06-13T23:01:36.360+0800	ERROR	dao/mysql.go:24	connect db failed	{"error": "Error 1049 (42000): Unknown database 'chat_db'"}
+2024-06-13T23:11:47.771+0800	DEBUG	service/main.go:24	log init success
