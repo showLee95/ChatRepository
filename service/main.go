@@ -1,9 +1,9 @@
 package main
 
 import (
-	"ChatRepository/service/conf"
-	mysql "ChatRepository/service/dao"
-	"ChatRepository/service/loger"
+	"chatim/conf"
+	"chatim/dao/sqlites"
+	"chatim/loger"
 	"fmt"
 
 	"go.uber.org/zap"
@@ -23,9 +23,21 @@ func main() {
 	}
 	zap.L().Debug("log init success")
 	// 初始化msyql数据库
-	if err := mysql.Init(); err != nil {
-		fmt.Println("mysql init err ", err)
-		return
+	// if err := mysqld.Init(); err != nil {
+	// 	fmt.Println("mysql init err ", err)
+	// 	return
+	// }
+	// defer mysqld.Close()
+	//初始化postgres数据库
+	// 	if err := postgres.Init(); err != nil {
+	// 		fmt.Println("postgres init err ", err)
+	// 		return
+	// 	}
+	// defer	postgres.Close()
+	// fmt.Println("dds")
+	if err := sqlites.Init(); err != nil {
+		fmt.Println("init db err:", err)
 	}
-	mysql.Close()
+	defer sqlites.Close()
+	sqlites.Dksd()
 }

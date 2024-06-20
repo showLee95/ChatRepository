@@ -17,3 +17,11 @@ mysql:
   dbname: "chat_db"
   max_open_conns: 200
   max_idle_conns: 50
+postgres:
+  host: "192.168.31.103"
+  port: 5432
+  user: "postgres"
+  password: "admin123"
+  dbname: "chat_db"
+  SetMaxOpenConns: 200
+  SetMaxIdleConns: 50

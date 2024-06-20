@@ -23,7 +23,7 @@ func Init() (err error) {
 	viper.SetConfigFile("../config.yaml")
 	err = viper.ReadInConfig()
 	if err != nil {
-		fmt.Println("vip init err :", err)
+		fmt.Println("viper init err :", err)
 		return
 	}
 
