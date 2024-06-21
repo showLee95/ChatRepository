@@ -60,3 +60,61 @@
 2024-06-20T15:06:43.174+0800	DEBUG	service/main.go:24	log init success
 2024-06-20T15:07:08.206+0800	DEBUG	service/main.go:24	log init success
 2024-06-20T15:47:51.362+0800	DEBUG	service/main.go:24	log init success
+2024-06-20T21:09:46.977+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T21:10:48.247+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T21:28:02.629+0800	ERROR	controller/uptext.go:14	uptext json err	{"error": "EOF"}
+2024-06-20T21:33:29.556+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-20T21:34:21.458+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T21:37:18.981+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-20T21:50:50.893+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T22:13:20.033+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-20T22:20:05.500+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T22:20:07.480+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-20T22:20:13.541+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T22:20:18.011+0800	ERROR	controller/uptext.go:14	uptext json err	{"error": "Key: 'UpText.Text' Error:Field validation for 'Text' failed on the 'required' tag"}
+2024-06-20T22:21:17.763+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-20T22:21:24.597+0800	DEBUG	service/main.go:33	log init success
+2024-06-20T22:21:35.411+0800	ERROR	controller/uptext.go:14	uptext json err	{"error": "Key: 'UpText.Text' Error:Field validation for 'Text' failed on the 'required' tag"}
+2024-06-20T22:21:40.034+0800	ERROR	controller/uptext.go:14	uptext json err	{"error": "Key: 'UpText.Text' Error:Field validation for 'Text' failed on the 'required' tag"}
+2024-06-20T22:25:12.052+0800	ERROR	controller/uptext.go:14	uptext json err	{"error": "invalid character '\\n' in string literal"}
+2024-06-20T23:03:34.103+0800	ERROR	controller/uptext.go:14	uptext json err	{"error": "Key: 'UpText.Text' Error:Field validation for 'Text' failed on the 'required' tag"}
+2024-06-20T23:42:47.423+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T01:10:17.608+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T01:32:19.549+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T15:23:11.123+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T15:23:15.031+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "http: no such file"}
+2024-06-21T15:26:02.312+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T15:26:17.443+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T15:26:21.058+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "http: no such file"}
+2024-06-21T15:26:22.267+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "http: no such file"}
+2024-06-21T15:29:38.259+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T15:29:44.019+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T15:30:04.011+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T15:30:23.138+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T15:30:49.734+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T15:31:47.228+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "http: no such file"}
+2024-06-21T15:41:32.728+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "http: no such file"}
+2024-06-21T15:41:43.334+0800	ERROR	controller/upfile.go:51	File is required:	{"error": "http: no such file"}
+2024-06-21T15:42:16.187+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T15:42:23.405+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T15:42:26.056+0800	ERROR	controller/upfile.go:52	File is required:	{"error": "http: no such file"}
+2024-06-21T16:23:41.900+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T16:23:59.015+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T16:24:20.610+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T16:24:26.244+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T16:24:28.682+0800	ERROR	controller/upfile.go:53	File is required:	{"error": "http: no such file"}
+2024-06-21T16:25:00.578+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T16:25:15.166+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T16:25:20.915+0800	ERROR	controller/upfile.go:53	File is required:	{"error": "http: no such file"}
+2024-06-21T16:25:31.282+0800	ERROR	controller/upfile.go:53	File is required:	{"error": "http: no such file"}
+2024-06-21T16:25:49.443+0800	ERROR	controller/upfile.go:53	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T16:25:56.921+0800	ERROR	controller/upfile.go:53	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T16:26:13.913+0800	ERROR	controller/upfile.go:53	File is required:	{"error": "request Content-Type isn't multipart/form-data"}
+2024-06-21T16:46:45.520+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T17:17:33.556+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T17:17:35.098+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T17:17:41.784+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T17:18:46.859+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T17:23:19.051+0800	DEBUG	service/main.go:33	log init success
+2024-06-21T17:24:21.338+0800	INFO	service/main.go:64	Shutdown Server ...
+2024-06-21T17:24:33.160+0800	DEBUG	service/main.go:33	log init success

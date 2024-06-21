@@ -16,7 +16,8 @@ import (
 func StartRoute() *gin.Engine {
 	c := gin.Default()
 	v1 := c.Group("/api/v1")
-	v1.POST("/upfile", controller.UpFile())
+	v1.POST("/upfile", controller.UpFile)
+	v1.POST("/uptext", controller.UpText)
 	c.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"msg": "404",

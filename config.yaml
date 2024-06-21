@@ -1,8 +1,9 @@
 app:
   env: local
-  port: "8080"
+  port: ":8080"
   app_name: ChatRepository
   version: 1
+  path: "./data/"
 log: 
   level: "debug"
   filename: "web_app.log"
